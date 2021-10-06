@@ -1,4 +1,4 @@
-import Joystick
+from Joystick import Joystick
 import time
 
 xChn = 0
