@@ -6,11 +6,11 @@ class Joystick():
     self.xVal = PCF8591(address1)
     self.yVal = PCF8591(address2)
 
-  def getX(self):
-    return self.xVal.read()
+  def getX(self, chn):
+    return self.xVal.read(chn)
 
-  def getY(self):
-    return self.yVal.read()
+  def getY(self, chn):
+    return self.yVal.read(chn)
   
   
     
